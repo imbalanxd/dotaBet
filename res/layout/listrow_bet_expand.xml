@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:d2l="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:paddingLeft="50dp"
+              android:background="@color/item_uncommon">
+
+    <TextView android:id="@+id/dateText"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="14sp"
+              android:textStyle="bold"/>
+
+    <com.dota.DotABet.ui.ItemHolder
+            android:id="@+id/itemsPlaced"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            d2l:imageWidth="@dimen/imageWidthMedium"
+            d2l:imageHeight="@dimen/imageHeightMedium"/>
+    <com.dota.DotABet.ui.ItemHolder
+            android:id="@+id/itemsWon"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            d2l:imageWidth="@dimen/imageWidthMedium"
+            d2l:imageHeight="@dimen/imageHeightMedium"/>
+</LinearLayout>

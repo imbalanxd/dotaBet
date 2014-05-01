@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/headerHeight"
+              android:background="@drawable/header_background">
+    <ImageButton
+        android:id="@+id/headerHome"
+        style="@style/header_button"
+        android:layout_weight="1.0"
+        android:layout_width="0dp"
+        android:src="@drawable/steam_logo"/>
+    <ImageButton
+            android:id="@+id/headerBets"
+            style="@style/header_button"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:src="@drawable/steam_logo"
+            android:background="@drawable/graph_bar_grey"/>
+    <ImageButton
+            android:id="@+id/headerItems"
+            style="@style/header_button"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:src="@drawable/steam_logo"
+            android:background="@drawable/graph_bar_grey"/>
+    <ImageButton
+            android:id="@+id/headerSteam"
+            style="@style/header_button"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:src="@drawable/steam_logo"
+            android:background="@drawable/graph_bar_grey"/>
+</LinearLayout>

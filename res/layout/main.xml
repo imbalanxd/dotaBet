@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:d2l="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/fnatic">
+
+    <com.dota.DotABet.ui.Drawer
+            android:id="@+id/loginDrawer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            d2l:entry="top"
+            d2l:gap="@dimen/headerHeight"
+            android:background="@color/steam_gray">
+        <com.dota.DotABet.webview.D2LWebView
+                android:layout_width="fill_parent"
+                android:layout_height="450dp"
+                android:background="@color/steam_gray"
+                android:id="@+id/mainWebview"/>
+    </com.dota.DotABet.ui.Drawer>
+
+    <include layout="@layout/main_header"
+             android:id="@+id/headerBar"/>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/headerBar"
+            android:id="@+id/fragmentContainer"/>
+</LinearLayout>
+

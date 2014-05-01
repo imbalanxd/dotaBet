@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="4dp"
+              android:background="@color/steam_gray">
+
+        <com.dota.DotABet.ui.ScalableImageView android:id="@+id/itemImage"
+                           android:scaleType="fitXY"
+                           android:layout_height="match_parent"
+                           android:layout_width="wrap_content"
+                           android:adjustViewBounds="true"
+                           android:visibility="visible"
+                           android:background="@color/item_rare"
+                           android:padding="4dp"/>
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:id="@+id/infoContainer"
+                      android:layout_marginTop="4dp">
+
+            <TextView android:id="@+id/itemName"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:background="@color/item_rare"
+                      android:textStyle="bold"/>
+
+            <LinearLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <ImageView
+                        android:layout_width="@dimen/imageWidthSmall"
+                        android:layout_height="@dimen/imageHeightSmall"
+                        android:scaleType="fitXY"
+                        android:id="@+id/heroImage"/>
+                <TextView android:id="@+id/heroName"
+                          android:gravity="center_vertical"
+                          android:layout_height="wrap_content"
+                          android:layout_width="wrap_content"
+                          android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal">
+                <ImageView
+                        android:layout_width="@dimen/imageWidthSmall"
+                        android:layout_height="@dimen/imageHeightSmall"
+                        android:id="@+id/typeImage"/>
+                <TextView android:id="@+id/typeName"
+                          android:gravity="center_vertical"
+                          android:layout_height="wrap_content"
+                          android:layout_width="wrap_content"
+                          android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+</LinearLayout>

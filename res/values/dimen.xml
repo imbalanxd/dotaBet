@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Header Dimensions-->
+    <dimen name="headerButtonHeight">40dp</dimen>
+    <dimen name="headerButtonMarginTop">10dp</dimen>
+    <dimen name="headerButtonMarginBottom">10dp</dimen>
+    <dimen name="headerHeight">60dp</dimen>
+    <!--Image Dimensions-->
+    <dimen name="imageWidthSmall">33dp</dimen>
+    <dimen name="imageHeightSmall">22dp</dimen>
+    <dimen name="imageWidthMedium">66dp</dimen>
+    <dimen name="imageHeightMedium">44dp</dimen>
+    <dimen name="imageWidthLarge">100dp</dimen>
+    <dimen name="imageHeightLarge">66dp</dimen>
+</resources>

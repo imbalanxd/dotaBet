@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="main">
+        <item name="android:background">@drawable/main_background</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+    <style name="header_button">
+        <item name="android:background">@drawable/graph_bar_grey</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_height">@dimen/headerButtonHeight</item>
+        <item name="android:layout_marginTop">@dimen/headerButtonMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/headerButtonMarginBottom</item>
+    </style>
+    <color name="black_trans">#5571460d</color>
+    <color name="gun_metal">#71460d</color>
+    <color name="fnatic">#151515</color>
+    <color name="steam_gray">#242424</color>
+    <color name="item_rare">#4161ff</color>
+    <color name="item_uncommon">#4f98d9</color>
+    <color name="item_common">#b0c3d9</color>
+    <color name="item_key">#ced919</color>
+    <color name="item_selected">#000000</color>
+    <color name="item_unselected">#ced919</color>
+</resources>

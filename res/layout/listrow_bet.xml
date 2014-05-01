@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:paddingLeft="50dp"
+              android:background="@color/item_rare">
+
+    <TextView android:id="@+id/teamsText"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="14sp"
+              android:textStyle="bold"/>
+
+    <ImageView
+            android:id="@+id/teamOneImage"
+            android:layout_width="90px"
+            android:layout_height="75px"
+            android:layout_margin="5dp"/>
+    <ImageView
+            android:id="@+id/teamTwoImage"
+            android:layout_width="90px"
+            android:layout_height="75px"
+            android:layout_margin="5dp"/>
+
+
+</LinearLayout>

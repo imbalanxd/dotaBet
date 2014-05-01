@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DotABet</string>
+    <string name="steam_api_key">47C349E7AFF79D6FA40805A3726484DD</string>
+    <string name="d2l_base_url">http://dota2lounge.com/</string>
+    <string name="steam_base_url">https://steamcommunity.com</string>
+    <string name="steam_login_url">https://steamcommunity.com/openid/login?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.mode=checkid_setup&amp;openid.return_to=http%3A%2F%2Fdota2lounge.com%2Flogin&amp;openid.realm=http%3A%2F%2Fdota2lounge.com&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select</string>
+    <string name="d2l_bet_history_url">http://dota2lounge.com/ajax/betHistory.php</string>
+    <string name="steam_user_summary">http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=%1$s&amp;steamids=%2$s</string>
+
+    <string name="home_total_bets">Total bets: %1$d</string>
+    <string name="home_total_won">Bets won: %1$d</string>
+    <string name="home_items_won">Items won: %1$d</string>
+    <string name="home_items_lost">Items lost: %1$d</string>
+</resources>
